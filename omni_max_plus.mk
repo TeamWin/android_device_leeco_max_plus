@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := x2
+PRODUCT_RELEASE_NAME := max_plus
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -23,12 +23,12 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_x2
-PRODUCT_DEVICE := x2
+PRODUCT_NAME := omni_max_plus
+PRODUCT_DEVICE := max_plus
 PRODUCT_BRAND := leeco
-PRODUCT_MODEL := x2
+PRODUCT_MODEL := max_plus
 PRODUCT_MANUFACTURER := leeco
 
-TARGET_VENDOR_PRODUCT_NAME := LeMax2
-TARGET_VENDOR_DEVICE_NAME := le_x2
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=le_x2 PRODUCT_NAME=LeMax2
+TARGET_VENDOR_PRODUCT_NAME := LeMaxPro
+TARGET_VENDOR_DEVICE_NAME := max_plus
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=max_plus PRODUCT_NAME=LeMaxPro

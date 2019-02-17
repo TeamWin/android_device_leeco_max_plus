@@ -31,7 +31,7 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x02000000
 BOARD_RAMDISK_OFFSET     := 0x02200000
-TARGET_PREBUILT_KERNEL := device/leeco/x2/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/leeco/max_plus/prebuilt/Image.gz-dtb
 
 # /proc/partitions * 2 * BLOCK_SIZE (512) = size in bytes
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864

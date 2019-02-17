@@ -1,4 +1,4 @@
-TWRP device configuration for LeEco Le Max 2
+TWRP device configuration for LeEco Le Max Pro
 ==============
 
 kernel source used for prebuilt kernel:
@@ -10,6 +10,6 @@ To compile android-8.1 based TWRP
 
 export ALLOW_MISSING_DEPENDENCIES=true
 
-. build/envsetup.sh && lunch omni_x2-eng
+. build/envsetup.sh && lunch omni_max_plus-eng
 
 mka adbd recoveryimage
