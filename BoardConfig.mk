@@ -32,10 +32,16 @@ BOARD_KERNEL_CMDLINE += cma=32M@0-0xffffffff loglevel=7
 BOARD_KERNEL_CMDLINE += androidboot.configfs=true
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000
-BOARD_KERNEL_PAGESIZE := 4096
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/leeco/msm8996
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 BOARD_KERNEL_TAGS_OFFSET := 0x02000000
 BOARD_RAMDISK_OFFSET     := 0x02200000
-TARGET_PREBUILT_KERNEL := device/leeco/max_plus/prebuilt/Image.gz-dtb
+
+TARGET_KERNEL_CONFIG := lineage_x2_defconfig
+
+TARGET_COMPILE_WITH_MSM_KERNEL := true
 
 # /proc/partitions * 2 * BLOCK_SIZE (512) = size in bytes
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
