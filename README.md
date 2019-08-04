@@ -2,7 +2,7 @@ TWRP device configuration for LeEco Le Max Pro
 ==============
 
 kernel source used for prebuilt kernel:
-https://github.com/LineageOS/android_kernel_leeco_msm8996/
+https://github.com/LineageOsMaxPlus/android_kernel_leeco_msm8996/tree/android-9.0-twrp
 
 To compile android-9.0 based TWRP
 ==============
